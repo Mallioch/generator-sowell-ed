@@ -18,7 +18,7 @@
   "files": [
     "generators/app",
     "generators/html-css-jquery",
-    "generators/jsboot",
+    "generators/jsboot"
   ],
   "dependencies": {
     "yeoman-generator": "^0.24.1"
