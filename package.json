@@ -1,6 +1,6 @@
 {
   "name": "generator-sowell-ed",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Yeoman generator for my tech teaching",
   "repository": {
     "type": "git",
@@ -17,7 +17,8 @@
   "homepage": "https://github.com/Mallioch/generator-sowell-ed#readme",
   "files": [
     "generators/app",
-    "generators/html"
+    "generators/html-css-jquery",
+    "generators/jsboot",
   ],
   "dependencies": {
     "yeoman-generator": "^0.24.1"
