@@ -74,11 +74,5 @@ module.exports = generators.Base.extend({
       this.destinationPath(this.answers.name + '/jquery_3_1_0.js'),
       vars
     );
-
-    this.fs.copyTpl(
-      this.templatePath('underscore_1_8_3.js'),
-      this.destinationPath(this.answers.name + '/underscore_1_8_3.js'),
-      vars
-    );
   }
 });
