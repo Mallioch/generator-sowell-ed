@@ -64,20 +64,20 @@ module.exports = generators.Base.extend({
     );
 
     this.fs.copyTpl(
-      this.templatePath('backbone-1.3.3.js'),
-      this.destinationPath(this.answers.name + '/backbone-1.3.3.js'),
+      this.templatePath('backbone_1_3_3.js'),
+      this.destinationPath(this.answers.name + '/backbone_1_3_3.js'),
       vars
     );
 
     this.fs.copyTpl(
-      this.templatePath('jquery-3.1.0.js'),
-      this.destinationPath(this.answers.name + '/jquery-3.1.0.js'),
+      this.templatePath('jquery_3_1_0.js'),
+      this.destinationPath(this.answers.name + '/jquery_3_1_0.js'),
       vars
     );
 
     this.fs.copyTpl(
-      this.templatePath('underscore-1.8.3.js'),
-      this.destinationPath(this.answers.name + '/underscore-1.8.3.js'),
+      this.templatePath('underscore_1_8_3.js'),
+      this.destinationPath(this.answers.name + '/underscore_1_8_3.js'),
       vars
     );
   }
