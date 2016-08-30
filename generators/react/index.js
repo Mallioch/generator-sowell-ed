@@ -43,12 +43,6 @@ module.exports = generators.Base.extend({
     );
 
     this.fs.copyTpl(
-      this.templatePath('.gitignore'),
-      this.destinationPath(this.answers.name + '/.gitignore'),
-      vars
-    );
-
-    this.fs.copyTpl(
       this.templatePath('package.json'),
       this.destinationPath(this.answers.name + '/package.json'),
       vars
