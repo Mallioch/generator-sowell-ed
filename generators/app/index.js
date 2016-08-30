@@ -9,6 +9,7 @@ module.exports = generators.Base.extend({
     this.log('yo sowell-ed:jsboot - creates files for a JS exercise for my TIY FEE course');
     this.log('yo sowell-ed:backbone - creates files for a Backbone project');
     this.log('yo sowell-ed:qunit - creates files for a Qunit standalone project');
+    this.log('yo sowell-ed:react - creates files for a React project');
     this.log('');
   },
 
