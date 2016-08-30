@@ -1,6 +1,6 @@
 {
   "name": "generator-sowell-ed",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Yeoman generator for my tech teaching",
   "repository": {
     "type": "git",
@@ -20,7 +20,8 @@
     "generators/backbone",
     "generators/jquery",
     "generators/jsboot",
-    "generators/qunit"
+    "generators/qunit",
+    "generators/react"
   ],
   "dependencies": {
     "mkdirp": "^0.5.1",
