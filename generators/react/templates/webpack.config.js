@@ -7,6 +7,7 @@ var SCSS_DIR = path.resolve(__dirname, 'client/scss');
 
 var config = {
   entry: APP_DIR + '/index.jsx',
+  devtool: 'source-map',
   output: {
     path: BUILD_DIR,
     filename: 'app.bundle.js'

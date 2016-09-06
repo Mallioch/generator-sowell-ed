@@ -1,18 +1,20 @@
 var React = require('react');
 var render = require('react-dom').render;
 
-var Header = require('./js/header.jsx').Header;
+var Header = require('./js/header.jsx');
 
 require("./scss/style.scss");
 
 class App extends React.Component {
 
   render () {
-    return <div>
+    return (
+      <div>
         <Header />
 
         <p>This is a React app!</p>
-      </div>;
+      </div>
+    );
   }
 }
 

@@ -31,6 +31,7 @@ module.exports = generators.Base.extend({
     mkdirp.sync(this.destinationPath() + '/' + this.answers.name + '/public');
     mkdirp.sync(this.destinationPath() + '/' + this.answers.name + '/client');
     mkdirp.sync(this.destinationPath() + '/' + this.answers.name + '/client/js');
+    mkdirp.sync(this.destinationPath() + '/' + this.answers.name + '/client/js/samples');
     mkdirp.sync(this.destinationPath() + '/' + this.answers.name + '/client/scss');
     mkdirp.sync(this.destinationPath() + '/' + this.answers.name + '/server');
 
@@ -75,6 +76,24 @@ module.exports = generators.Base.extend({
     this.fs.copyTpl(
       this.templatePath('client/js/header.jsx'),
       this.destinationPath(this.answers.name + '/client/js/header.jsx'),
+      vars
+    );
+
+    this.fs.copyTpl(
+      this.templatePath('client/js/dispatcher.js'),
+      this.destinationPath(this.answers.name + '/client/js/dispatcher.js'),
+      vars
+    );
+
+    this.fs.copyTpl(
+      this.templatePath('client/js/samples/store-sample.js'),
+      this.destinationPath(this.answers.name + '/client/js/samples/store-sample.js'),
+      vars
+    );
+
+    this.fs.copyTpl(
+      this.templatePath('client/js/samples/flux-component.jsx'),
+      this.destinationPath(this.answers.name + '/client/js/samples/flux-component.jsx'),
       vars
     );
 

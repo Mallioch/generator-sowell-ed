@@ -1,12 +1,14 @@
-import React from 'react';
+var React = require('react');
 
 class Header extends React.Component {
 
   render () {
-    return <header>
+    return (
+      <header>
         <h1>React Header!</h1>
-      </header>;
+      </header>
+    );
   }
 }
 
-exports.Header = Header;
+module.exports = Header;
