@@ -80,20 +80,14 @@ module.exports = generators.Base.extend({
     );
 
     this.fs.copyTpl(
-      this.templatePath('client/js/dispatcher.js'),
-      this.destinationPath(this.answers.name + '/client/js/dispatcher.js'),
+      this.templatePath('client/js/samples/clicker-store.js'),
+      this.destinationPath(this.answers.name + '/client/js/samples/clicker-store.js'),
       vars
     );
 
     this.fs.copyTpl(
-      this.templatePath('client/js/samples/store-sample.js'),
-      this.destinationPath(this.answers.name + '/client/js/samples/store-sample.js'),
-      vars
-    );
-
-    this.fs.copyTpl(
-      this.templatePath('client/js/samples/flux-component.jsx'),
-      this.destinationPath(this.answers.name + '/client/js/samples/flux-component.jsx'),
+      this.templatePath('client/js/samples/clicker.jsx'),
+      this.destinationPath(this.answers.name + '/client/js/samples/clicker.jsx'),
       vars
     );
 

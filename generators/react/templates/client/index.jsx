@@ -1,7 +1,7 @@
-var React = require('react');
-var render = require('react-dom').render;
+import React from 'react';
+import { render } from 'react-dom';
 
-var Header = require('./js/header.jsx');
+import Header from './js/header.jsx';
 
 require("./scss/style.scss");
 
@@ -12,7 +12,7 @@ class App extends React.Component {
       <div>
         <Header />
 
-        <p>This is a React app!</p>
+        <p>Paragraph is App component!</p>
       </div>
     );
   }

@@ -1,25 +1,23 @@
-var React = require('react');
-var store = require('./store-sample.js');
+import React from 'react';
+import store from './clicker-store.js';
 
-class FluxComponent extends React.Component {
+class Clicker extends React.Component {
 
   constructor() {
     super();
 
-    store.actions.doThing();
-
-    this.state = store.getState();
+    this.state = store.copyState();
   }
 
   componentDidMount() {
     var self = this;
-    store.onChange(function(state) {
+    store.addListener(function(state) {
       self.setState(state);
     });
   }
 
   _onClick() {
-    store.actions.doThing()
+    store.actions.increment()
   }
 
   render() {
