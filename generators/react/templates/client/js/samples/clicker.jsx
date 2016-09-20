@@ -31,4 +31,4 @@ class Clicker extends React.Component {
   }
 }
 
-module.exports = FluxComponent;
+module.exports = Clicker;
