@@ -21,7 +21,7 @@
     "generators/jquery",
     "generators/jsboot",
     "generators/qunit",
-    "generators/react",
+    "generators/react-webpack",
     "generators/vanillajs"
   ],
   "dependencies": {
