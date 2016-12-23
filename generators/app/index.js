@@ -10,6 +10,7 @@ module.exports = generators.Base.extend({
     //this.log('yo sowell-ed:jsboot - creates files for a JS exercise for my TIY FEE course');
     this.log('yo sowell-ed:backbone - creates files for a Backbone project');
     this.log('yo sowell-ed:qunit - creates files for a Qunit standalone project');
+    this.log('yo sowell-ed:react-gulp - creates files for a React and Gulp project');
     this.log('yo sowell-ed:react-webpack - creates files for a React and Webpack project');
     this.log('');
   },
