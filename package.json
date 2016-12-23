@@ -21,6 +21,7 @@
     "generators/jquery",
     "generators/jsboot",
     "generators/qunit",
+    "generators/react-gulp",
     "generators/react-webpack",
     "generators/vanillajs"
   ],
